@@ -1,7 +1,7 @@
 {
     "name": "kpmt-io",
     "version": "0.1.0",
-    "description": "kpmt.io api for better project management.",
+    "description": "Kanban Project Management Tool API",
     "keywords": ["kanban", "agile", "management tool"],
     "main": "app.js",
     "engines": {

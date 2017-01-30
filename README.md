@@ -14,7 +14,7 @@ An API designed to be flexible and easily extensible to fit any needs.
 
 # INSTALLATION
 
-`npm install kpmt`
+`npm install kpmt-io`
 
 # CONFIGURATION
 
@@ -22,7 +22,7 @@ Copy `sample.json` to `production.json`. Modify per your settings.
 
 # RUNNING
 
-* `cd node_modules/kpmt/`  
+* `cd node_modules/kpmt-io/`  
 * `NODE_ENV=production node app.js`
  
 # PRODUCTION USAGE
