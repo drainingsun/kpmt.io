@@ -1,5 +1,5 @@
 {
-    "name": "kpmt.io",
+    "name": "kpmt-io",
     "version": "0.1.0",
     "description": "kpmt.io api for better project management.",
     "keywords": ["kanban", "agile", "management tool"],
@@ -31,7 +31,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/drainingsun/kpmt.io.gitt"
+        "url": "https://github.com/drainingsun/kpmt.io.git"
     },
     "bugs": {
         "url": "https://github.com/drainingsun/kpmt.io/issues",
