@@ -1,0 +1,60 @@
+{
+    "levels": {
+        "project": "project",
+        "board": "board",
+        "swimlane": "swimlane",
+        "column": "column",
+        "card": "card",
+        "task": "task"
+    },
+
+    "privileges": {
+        "administrateLabels": "administrateLabels",
+        "administratePriorities": "administratePriorities",
+        "administratePrivilegeLinks": "administratePrivilegeLinks",
+        "administrateRoles": "administrateRoles",
+        "administrateStatuses": "administrateStatuses",
+        "administrateUsers": "administrateUsers",
+        "manageProjects": "manageProjects",
+        "manageLinkedProjects": "manageLinkedProjects",
+        "viewProjects": "viewProjects",
+        "viewLinkedProjects": "viewLinkedProjects",
+        "manageBoards": "manageBoards",
+        "manageLinkedBoards": "manageLinkedBoards",
+        "viewBoards": "viewBoards",
+        "viewLinkedBoards": "viewLinkedBoards",
+        "manageSwimlanes": "manageSwimlanes",
+        "manageLinkedSwimlanes": "manageLinkedSwimlanes",
+        "viewSwimlanes": "viewSwimlanes",
+        "viewLinkedSwimlanes": "viewLinkedSwimlanes",
+        "manageColumns": "manageColumns",
+        "manageLinkedColumns": "manageLinkedColumns",
+        "viewColumns": "viewColumns",
+        "viewLinkedColumns": "viewLinkedColumns",
+        "manageCards": "manageCards",
+        "manageLinkedCards": "manageLinkedCards",
+        "viewCards": "viewCards",
+        "viewLinkedCards": "viewLinkedCards",
+        "manageTasks": "manageTasks",
+        "manageLinkedTasks": "manageLinkedTasks",
+        "viewTasks": "viewTasks",
+        "viewLinkedTasks": "viewLinkedTasks",
+        "manageLabelLinks": "manageLabelLinks",
+        "manageUserLinks": "manageUserLinks"
+    },
+
+    "activities": {
+        "addCard": "addCard",
+        "updateCard": "updateCard",
+        "deleteCard": "deleteCard",
+        "downgradeCard": "downgradeCard",
+        "addTask": "addTask",
+        "updateTask": "updateTask",
+        "deleteTask": "deleteTask",
+        "upgradeTask": "upgradeTask",
+        "addLabelLink": "addLabelLink",
+        "deleteLabelLink": "deleteLabelLink",
+        "addUserLink": "addUserLink",
+        "deleteUserLink": "deleteUserLink"
+    }
+}

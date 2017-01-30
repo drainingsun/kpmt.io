@@ -1,0 +1,49 @@
+{
+    "app": {
+        "name": "kpmt.io",
+        "debug": false,
+        "offline": false,
+        "version": "0.1.0"
+    },
+
+    "mongo": {
+        "host": "localhost",
+        "user": "user",
+        "password": "password",
+        "database": "kpmt"
+    },
+
+    "server": {
+        "port": 8090
+    },
+
+    "mail": {
+        "sender": "sender",
+        "password": "password",
+        "smtpProvider": "smtp.gmail.com",
+        "send": true
+    },
+
+    "tokens": {
+        "user": {
+            "expire": "1h",
+            "secret": "secretWithLengthOfThirtyTwoBytes"
+        },
+
+        "reset": {
+            "expire": "1d",
+            "secret": "secretWithLengthOfThirtyTwoBytes"
+
+        },
+
+        "confirm": {
+            "expire": "1d",
+            "secret": "secretWithLengthOfThirtyTwoBytes"
+        }
+    },
+
+    "urls": {
+        "confirmMail": "confirmMail",
+        "resetMail": "resetMail"
+    }
+}

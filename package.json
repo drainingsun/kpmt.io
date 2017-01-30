@@ -1,0 +1,40 @@
+{
+    "name": "kpmt.io",
+    "version": "0.1.0",
+    "description": "kpmt.io api for better project management.",
+    "keywords": ["kanban", "agile", "management tool"],
+    "main": "app.js",
+    "engines": {
+        "node": ">=6"
+    },
+    "dependencies": {
+        "async": "2.1.4",
+        "bunyan": "1.8.5",
+        "jsonwebtoken": "7.2.1",
+        "mongoose": "4.7.7",
+        "mongoose-bcrypt": "1.4.2",
+        "mongoose-validator": "1.2.5",
+        "nodemailer": "2.7.0",
+        "restify": "4.3.0"
+    },
+    "devDependencies": {
+        "eslint": "3.13.1",
+        "mocha": "3.2.0",
+        "should": "11.1.2",
+        "supertest": "2.0.1"
+    },
+    "scripts": {
+        "test": "NODE_ENV=testing mocha --timeout 10000 tests",
+        "lint": "eslint ./ || true"
+    },
+    "author": "Draining Sun",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/drainingsun/kpmt.io.gitt"
+    },
+    "bugs": {
+        "url": "https://github.com/drainingsun/kpmt.io/issues",
+        "email": "drainingsun@protonmail.com"
+    }
+}
